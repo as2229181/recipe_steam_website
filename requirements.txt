@@ -1,0 +1,14 @@
+celery
+daphne
+channels[daphne]
+channels_redis
+Django>=4.2.8,<4.3
+django-extensions
+django-environ
+django-storages
+django-redis
+django-db-connection-pool[postgresql]
+Pillow>=8.2.0,<8.3.0
+psycopg2==2.9.3
+pyjwt[crypto]
+uwsgi>=2.0.19,<2.1.0
